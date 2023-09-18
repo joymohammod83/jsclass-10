@@ -46,6 +46,44 @@ let myGf = 1;
 myGf--;
 console.log( "broken", myGf);
 
-let sajol_gf_list = 3;
-sajol_gf_list+2;
-console.log(sajol_gf_list);
+let score = 210;
+score = score + 4;
+score = score + 2;
+score = score + 1;
+score = score + 6;
+console.log(score);
+
+let pockhet_money = 100;
+pockhet_money += 50;
+pockhet_money -= 49;
+pockhet_money *= 3;
+console.log(pockhet_money);
+
+let fristNmame = "joy";
+let lastName = "mohammod";
+let fullNmae = fristNmame + " " + lastName;
+console.log(fullNmae);
+
+let price = 25;
+let price1 = '30';
+let solve = parseInt(price1);
+let totalPrice = price + solve;
+console.log(totalPrice);
+
+let j1 = 19;
+let j2 = 29;
+if ( j1 == j2){
+    console.log("succes");
+}
+else {
+    console.log("failed");
+}
+
+let password = "iloveyou";
+let gmail = "i love you @ gmail.com";
+if ("iloveyou" == password && "i love you @ gmail.com" == gmail ){
+    console.log("showing your profilr");
+}
+else{
+    console.log("worng password");
+}
